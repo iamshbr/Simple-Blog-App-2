@@ -9,8 +9,8 @@ database integration in Express.
 - 🔄 **Page Navigation**: Uses `app.get()` to handle HTTP GET requests for navigating between different pages.
 - 📝 **Post Submission**: Utilizes `app.post()` to submit new blog posts through a form.
 - 🆔 **Access Posts by ID**: The application allows users to access individual blog posts by their unique ID. When a blog post is submitted, it is
-  stored in MongoDB with a unique \_id. Users can view a specific post by navigating to /posts/:postId, where :postId is replaced by the actual ID of
-  the post.
+  stored in MongoDB with a unique \_id. Users can view a specific post by navigating to `/posts/:postId`, where `:postId` is replaced by the actual ID
+  of the post.
 - 🗄️ **MongoDB Integration**: Blog posts are stored in MongoDB using Mongoose, enabling data persistence.
 - 📜 **Real-Time Updates**: Submitted posts are stored in the database and displayed on the home page.
 
