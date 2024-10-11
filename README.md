@@ -27,5 +27,5 @@ database integration in Express.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/simple-blog-app.git
+   git clone https://github.com/iamshbr/Simple-Blog-App-2.git
    ```
